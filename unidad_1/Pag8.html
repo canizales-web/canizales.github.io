@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <title>Tablas</title>
+    </head>
+    <body>
+          Etiquetas para la creación de tablas
+        <h2>Tablas</h2>
+        <table border="2">
+            <tr><td>1</td><td>2</td><td>3</td></tr>
+            <tr> <td>4</td><td>5</td><td>6</td></tr>
+            <tr><td>7</td><td>8</td><td>9</td></tr>
+        </table>
+        <br>
+           <table border="3">
+              <tr><th>A</th> <th>B</th> <th>C</th></tr>
+              <tr><td>1</td><td>2</td><td>3</td></tr>
+              <tr><td>4</td><td>5</td><td>6</td></tr>
+              <tr><td>7</td><td>8</td><td>9</td> </tr>
+        </table>
+        <br>
+        <table border="4">
+              <tr><th>&nbsp;</th><th>A</th> <th>B</th> <th>C</th></tr>
+              <tr><th>I</th><td>1</td><td>2</td><td>3</td> </tr>
+              <tr><th>II</th><td>4</td><td>5</td><td>6</td></tr>
+              <tr><th>III</th><td>7</td><td>8</td><td>9</td></tr>
+        </table>
+        <br>
+        <table border="5"> 
+            <thead><tr><th>&nbsp;</th><th>A</th> <th>B</th> <th>C</th></tr></thead>
+            <tbody>
+              <tr><th>I</th><td>1</td><td>2</td><td>3</td> </tr>
+              <tr><th>II</th><td>4</td><td>5</td><td>6</td></tr>
+              <tr><th>III</th><td>7</td><td>8</td><td>9</td></tr>
+              <tr><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td></tr>
+            </tbody>
+            <tfoot><tr><th>&sum;</th><td>12</td><td>15</td><td>18</td></tr></tfoot>
+        </table>
+        <br>
+        <h3>Ejercicios de tablas</h3>
+        <table border="3">
+            <tr><th colspan="4">Tabla No.1</th></tr>
+            <tr><td>A</td><td>B</td><td rowspan="4">C</td><td>D</td></tr>
+            <tr><td rowspan="2">E</td><td>F</td><td rowspan ="3">G</td></tr>
+            <tr><td>H</td></tr>
+            <tr><td>I</td><td>J</td></tr>
+        </table>
+        <br>
+        <table border="3">
+            <tr><th colspan="4">Tabla No.2</th></tr>
+            <tr><td>1</td><td>2</td><td>3</td><td>4</td></tr>
+            <tr><td rowspan="3">5</td><td>6</td><td colspan="2">7</td></tr>
+            <tr><td>8</td><td>9</td><td rowspan = "2">10</td></tr>
+            <tr><td colspan="2">11</td></tr>
+        </table>
+        <br>
+        <table border = "3">
+            <tr><td rowspan = "2">A</td><td>B</td><td rowspan = "3">D</td><td colspan="4">E</td><td colspan="2">F</td></tr>
+            <tr><td>C</td><td colspan = "2" rowspan="2">G</td><td colspan="2" rowspan="2">H</td><td colspan="2" rowspan="2">I</td></tr>
+            <tr><td colspan="2">J</td></tr>
+            <tr><td colspan="3">K</td><td>L</td><td colspan="33">M</td></tr>
+        </table>
+        <br>
+        <table border = 3>
+            <tr><td>A</td><td>B</td><td>C</td><td>D</td><td>E</td><td>F</td><td>G</td></tr>
+            <tr><td>&nbsp;</td><td>1</td><td>&nbsp;</td><td rowspan="3">2</td><td colspan="2">3</td><td rowspan="2">4</td></tr>
+            <tr><td>5</td><td>6</td><td>7</td><td>8</td><td>9</td></tr>
+            <tr><td colspan="3">10</td><td colspan="2">11</td><td>12</td></tr>
+            <tr><td colspan = "7">13</td></tr>
+            <tr><td>14</td><td>15</td><td>16</td><td>17</td><td>18</td><td>19</td><td>20</td></tr>
+        </table>
+        <br>
+        <table border = "3">
+            <tr><td>1</td><td colspan="3">2</td><td colspan="3">3</td></tr>
+            <tr></tr>
+            <tr></tr>
+        </table>
+    </body>
+</html>
